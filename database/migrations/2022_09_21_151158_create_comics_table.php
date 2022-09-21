@@ -21,6 +21,7 @@ class CreateComicsTable extends Migration
             $table->string('icon')->nullable();
             $table->text('description')->nullable();
             $table->text('translator')->nullable();
+            $table->enum('edition', ['1', '2', '3', '4'])->default('1');
             $table->timestamps();
         });
     }
