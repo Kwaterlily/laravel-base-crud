@@ -15,7 +15,7 @@
     <title>Document | @yield('title')</title>
 </head>
 <body>
-    @include('includes.header')
+    {{-- @include('includes.header') --}}
     <main class="mmt-3">
         <div class="container">
             <div class="card main-card my-5 p-5">
